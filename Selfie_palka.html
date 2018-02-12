@@ -2,15 +2,24 @@
 
 	<head>
 	 <meta charset="utf-8">
-	 <link href="style.css" rel="stylesheet">
+	  <link href="style.css" rel="stylesheet">
 	<title>Shop</title>
 	<style>
+	 #left {
+	 text-align: left;
+	 }
+     #right {
+	 text-align: right;
+	 }
+     #center { 
+	 text-align: center;
+	 }
 	 .zagolovok{
 	color: orange;
     font-weight: bold;
 	}
 	.osntext{
-	 color:royalblue;
+	 color:purple;
 	 font-style: italic;
 	 font-weight: bold;
 	 margin-left: 20px;
@@ -21,20 +30,20 @@
 	</head>
 	<body>
 	
-<h1 align="center" class="zagolovok">Палка монопод для селфи, 3.5 mm RDX-211 оранжевый</h1>
+<h1 id="center" class="zagolovok">Палка монопод для селфи, 3.5 mm RDX-211 оранжевый</h1>
  <div>код: 026446</div>
  <div>Цена: 150 грн</div>
  <button >Купить</button> <button >Зарезервировать</button>
 <span style="color:green"><b>В наличии</b></span>
-    <p align="center"><img src="68.jpg" alt="Не удалось загрузить изображение"></p>                                                           
+    <p id="center"><img src="68.jpg" alt="Не удалось загрузить изображение"></p>                                                           
     <span>Купить в один клик</span> <button >Click</button>
-    <p align="left"><i><span style="color:blue">Самовывоз</span></i></p>
-     <p align="left"><i><span style="color:blue">Бесплатная доставка *</span></i></p>
-    <p align="left"><i><span style="color:blue">Киев</span></i></p>
+    <p id="left"><i><span style="color:blue">Самовывоз</span></i></p>
+     <p id="left"><i><span style="color:blue">Бесплатная доставка *</span></i></p>
+    <p id="left"><i><span style="color:blue">Киев</span></i></p>
    <span> вул. Хрещатик, 22 <br><em>пн-нд 10:00-21:00</em></span></a>
     <a href="javascript:void(0)">Заказать</a>
 * 
-    <b style="font-weight: bold; color: #59bf39;">Дозакажите на 200 грн
+    <b>Дозакажите на 200 грн
     и получите бесплатную доставку!<br>
     </b>
 	<br> Стоимость доставки при сумме заказа до 350 грн.:
@@ -108,7 +117,6 @@
 			<div>									
 				<input type="hidden" name="REVIEW_COUNT" value="0">					
 				<input id="REVIEW_USER" type="text" name="NONUSER" value="" placeholder="Ваше имя" class="input-text">
-				<div class="clear pt10"></div>
 				<div><textarea id="REVIEW_MESSAGE" required class="input-text" name="MESSAGE" rows="10" placeholder="Текст сообщения"></textarea></div>
 				<input type="hidden" name="PARENT" value="">
 				<input type="hidden" name="ACTION" value="add">
@@ -192,7 +200,7 @@
 			<p>Принимаем к оплате:Биткоины</p>              
             </div>
 
-                        <div align="center">
+                        <div id="center">
                             1666-2018 ©Store™
                             <br>
                             Интернет-магазин аксессуаров и техники
