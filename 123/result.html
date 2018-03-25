@@ -1,0 +1,28 @@
+<HTML>
+<head>
+<title>result</title>
+    <script type="text/javascript">
+        function parseDataFromUrl() {
+            var urlpage=decodeURIComponent(window.location.search.substring(1));
+            var resulturl = urlpage.split('&');
+            resulturl [0]
+            resulturl [1]
+            var datas = {};
+            resulturl.forEach(function (item) {
+                var parts = item.split('=');
+                datas[parts[0]] = parts[1];
+
+            });
+            return datas;
+        }
+    </script>
+</head>
+<body>
+<div class="hello_en">
+    <h1>Hello, <span id="name"> </span></h1>
+</div>
+
+
+
+</body>
+</HTML>
